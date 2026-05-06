@@ -1,4 +1,4 @@
-# NetSentry-Lab 🛡️
+# DMZ-Firewall-Lab 🛡️
 
 A hands-on home lab simulating a real-world enterprise network with firewall-enforced zone segmentation, a DMZ-hosted web server, and an SSH brute force attack simulation. Built to demonstrate core Network Engineering and Network Security skills.
 
