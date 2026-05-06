@@ -139,13 +139,13 @@ Confirmed: Packets reaching DMZ interface. Firewall routing working correctly.
 
 | Screenshot | Description |
 |------------|-------------|
-| `screenshots/pfsense-dashboard.png` | pfSense dashboard showing WAN/LAN/DMZ interfaces |
-| `screenshots/firewall-rules-dmz.png` | DMZ firewall rules configured |
-| `screenshots/apache-page-kali.png` | Apache default page accessed from Kali browser |
-| `screenshots/nmap-scan.png` | Nmap reconnaissance results from Kali |
-| `screenshots/ncrack-running.png` | SSH brute force attack in progress |
-| `screenshots/auth-log-evidence.png` | Ubuntu auth.log showing failed SSH attempts |
-| `screenshots/packet-capture.png` | pfSense packet capture showing traffic flow |
+| `screenshots/pfsense-dashboard.jpeg` | pfSense dashboard showing WAN/LAN/DMZ interfaces |
+| `screenshots/firewall-rules-dmz.jpeg` | DMZ firewall rules configured |
+| `screenshots/apache-page-kali.jpeg` | Apache default page accessed from Kali browser |
+| `screenshots/nmap-scan.jpeg` | Nmap reconnaissance results from Kali |
+| `screenshots/ncrack-running.jpeg` | SSH brute force attack in progress |
+| `screenshots/auth-log-evidence.jpeg` | Ubuntu auth.log showing failed SSH attempts |
+| `screenshots/packet-capture.jpeg` | pfSense packet capture showing traffic flow |
 
 ---
 
