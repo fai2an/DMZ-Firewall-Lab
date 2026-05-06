@@ -1,10 +1,10 @@
-# DMZ-Firewall-Lab 🛡️
+# DMZ-Firewall-Lab 
 
 A hands-on home lab simulating a real-world enterprise network with firewall-enforced zone segmentation, a DMZ-hosted web server, and an SSH brute force attack simulation. Built to demonstrate core Network Engineering and Network Security skills.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Most networking projects stop at "configure a firewall." This project goes further — it builds a complete attack scenario:
 
@@ -15,7 +15,7 @@ Most networking projects stop at "configure a firewall." This project goes furth
 
 ---
 
-## 🗺️ Network Architecture
+## Network Architecture
 
 ```
 [Kali Linux - Attacker]          [Ubuntu - Web Server]
@@ -43,7 +43,7 @@ Most networking projects stop at "configure a firewall." This project goes furth
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -58,7 +58,7 @@ Most networking projects stop at "configure a firewall." This project goes furth
 
 ---
 
-## 🔥 Firewall Rules
+## Firewall Rules
 
 ### DMZ Rules
 
@@ -76,7 +76,7 @@ Most networking projects stop at "configure a firewall." This project goes furth
 
 ---
 
-## 🔍 What I Did — Step by Step
+## What I Did — Step by Step
 
 ### 1. Built the Virtual Network
 - Created 3 VMware virtual networks: VMnet1 (NAT/WAN), VMnet2 (LAN), VMnet3 (DMZ)
@@ -105,7 +105,7 @@ Most networking projects stop at "configure a firewall." This project goes furth
 
 ---
 
-## 🧪 Attack Evidence
+## Attack Evidence
 
 ### Nmap Reconnaissance Results
 ```
@@ -149,7 +149,7 @@ Confirmed: Packets reaching DMZ interface. Firewall routing working correctly.
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 - How pfSense routes and filters traffic between network zones
 - How to design a DMZ to isolate public-facing servers from internal LAN
@@ -160,20 +160,20 @@ Confirmed: Packets reaching DMZ interface. Firewall routing working correctly.
 
 ---
 
-## 🔮 Planned Extension
+## Planned Extension
 
 This project will be extended by deploying a **Wazuh SIEM agent** on the DMZ Ubuntu server to enable real-time detection of the SSH brute force attack, mapping it to **MITRE ATT&CK T1110 (Brute Force)**. This will integrate with my existing [HomeSOCLab](https://github.com/fai2an/HomeSOCLab) project — creating a complete pipeline from network segmentation to SIEM alerting.
 
 ---
 
-## 🔗 Related Projects
+## Related Projects
 
 - [HomeSOCLab](https://github.com/fai2an/HomeSOCLab) — Home SOC with Wazuh SIEM, brute force detection and MITRE ATT&CK mapping
 - [NexaCorp-VAPT](https://github.com/fai2an/nexacorp-vapt) — Vulnerability Assessment and Penetration Testing report
 
 ---
 
-## ⚙️ Lab Setup
+## Lab Setup
 
 | VM | Role | Network | IP | Specs |
 |----|------|---------|-----|-------|
